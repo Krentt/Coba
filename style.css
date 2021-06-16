@@ -18,11 +18,7 @@ h1{
 }
 
 img{
-    width: 400px;
-    flex-wrap: wrap;
-}
-
-html{
+    width: 350px;
     flex-wrap: wrap;
 }
 
