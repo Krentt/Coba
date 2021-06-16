@@ -95,11 +95,26 @@ img{
 }
 
 .closing{
-    margin-top: 100px;
-    background-color: aqua;
-    font-size:medium;
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    
 }
 
 .kunyuk{
     margin-top: 100px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: -1px;
+    background-color: coral;
+}
+
+.slideshow-container{
+    background-color:coral;
 }

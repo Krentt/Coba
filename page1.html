@@ -10,7 +10,7 @@
 <body>
     <nav>
         <div class = "Sambutan">
-            <h1>WKWKKWWKKW</h1>
+            <h1>HALOO LAGIII</h1>
         </div>
     </nav>
 
@@ -39,7 +39,7 @@
         <img src="Foto/Foto1.jpg" alt="">
     </div>
     
-    <div class ="Tulisan_6"> BUKAN KAMUU -_-</div>
+    <div class ="Tulisan_6"> BUKAN KAAUU -_-</div>
     <div class = "foto_1">
         <img src="Foto/Foto10.jpg" alt="">
     </div>
@@ -67,13 +67,87 @@
         hope u like it!
         jan dipencet presentnya nanti ga supres :(
     </div>
-    <div class = 'kunyuk'>
-        <img src="https://img.youtube.com/vi/SD3b_EOnuEQ/0.jpg?resize=153%2C153" alt="kunyuk">
+
+    <h2>Iklan</h2>
+
+    <div class="slideshow-container">
+
+    <div class="mySlides">
+    <div class="numbertext">eitss</div>
+    <img src="Foto/Foto9.jpg" style="height: 50%">
+    <div class="text">lagi kuyy</div>
     </div>
+
+    <div class="mySlides">
+    <div class="numbertext">mood</div>
+    <img src="Foto/Foto16.jpg" style="height:50%">
+    <div class="text">biar mood</div>
+    </div>
+
+    <div class="mySlides">
+    <div class="numbertext"></div>
+    <img src="Foto/Foto15.jpg" style="height:50%">
+    <div class="text">Special thanks bet sii</div>
+    </div>
+    <div class="mySlides">
+    <div class="numbertext"></div>
+    <img src="Foto/Foto18.jpg" style="height:50%">
+    <div class="text">Sapa tau bikin mood lagi</div>
+    </div>
+    <div class="mySlides">
+    <div class="numbertext">nyenyenye</div>
+    <img src="Foto/Foto17.jpg" style="height:50%">
+    <div class="text"></div>
+    </div>
+    <div class="mySlides">
+    <div class="numbertext">MAU TAU PACARE FELI GA</div>
+    <img src="Foto/Foto19.jpg" style="height:5%">
+    <div class="text"></div>
+    </div>
+    <div class="mySlides">
+    <div class="numbertext">NIH</div>
+    <img src="Foto/Foto20.jpg" style="height:50%">
+    <div class="text">Namanya chicken</div>
+    </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    </div>
+
+    <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
     <nav>
         <div class="closing">
-            Special thanks to Mbok Feli for 
-            all of the pictures :))
+            <p> Special thanks to Mbok Feli for all of the pictures :))</p>
+           
         </div>
     </nav>
 
