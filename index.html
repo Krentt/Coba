@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APANIH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav> 
+        <div class="row">
+            <h1>HALO WOE!!!</h1>
+            <h2>pakabs</h2>
+        </div>
+    </nav>
+    <div>
+        <div> Halo Guys Lagi Coba coba</div>
+        <div> Buat yang mau ke US ini aslinya</div>
+        <img src="https://cdn.pixabay.com/photo/2020/07/21/01/33/cute-5424776_960_720.jpg" alt="Foto1">
+    </div>
+    <div class="Coba2">
+        Kan kita dah kenal lama nii, terus akutu beberapa hari ini kek gabisa
+        tidur dengan tenang. Mungkin gegara UAS, tapi keknya bukan deh Mungkin
+        gegara ada yang mau ke US kali ya? :"( Nah mumpung kamu masi di Indo
+        jadian yuk?
+    </div>
+    <button id = 'btn_mau' onclick='alert("I <3 U")'>HAYUUKK</button>
+    <button id = 'btn_gamau' onclick='gamau(this)'style='position: absolute;'>gamau</button>
+</body>
+<script>
+    function gamau(id){
+        var mau = document.getElementById('btn_mau');
+        var i = Math.floor(Math.random()*300)+1;
+        var j = Math.floor(Math.random()*100)+mau.offsetTop;
+        id.style.left = i + 'px';
+        id.style.top = j + 'px';
+    }
+</script>
+</html>

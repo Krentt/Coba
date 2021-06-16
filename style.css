@@ -1,0 +1,41 @@
+div {
+    font-size: x-large;
+    text-align: center;
+}
+
+h1{
+    color: brown;
+}
+
+.row{
+    background-color:bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 400px;
+}
+
+html{
+    flex-wrap: wrap;
+}
+
+.Coba2{
+    margin: 50px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
