@@ -1,0 +1,105 @@
+.Sambutan{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.Tulisan_1{
+    font-size: x-large;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:red;
+    font: bold;
+    background-color:whitesmoke;
+    margin: 20px;
+}
+.Tulisan_2{
+    font-size: x-large;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:yellow;
+    font: bold;
+    background-color:darkgoldenrod;
+    margin: 20px;
+}
+.Tulisan_3{
+    font-size: x-large;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:blue;
+    font: bold;
+    background-color:aliceblue;
+    margin: 20px;
+}
+.Tulisan_4{
+    font-size: x-large;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:greenyellow;
+    font: bold;
+    background-color:darkgray;
+    margin: 20px;
+}
+.Tulisan_5{
+    font-size: x-large;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:violet;
+    font: bold;
+    background-color:brown;
+    margin: 20px;
+}
+.Tulisan_6{
+    font-size: x-large;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font: bold;
+    background-color:cadetblue;
+    margin: 20px;
+}
+.Tulisan_7{
+    font-size: x-large;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font: bold;
+    background-color:cadetblue;
+    margin: 20px;
+}
+.Tulisan_8{
+    font-size: x-large;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:khaki;
+    font: bold;
+    background-color:darkslategray;
+    margin: 20px;
+}
+
+.Tulisan_9{
+    margin-top: 100px;
+}
+
+div {
+    font-size: x-large;
+    text-align: center;
+}
+
+img{
+    width: 300px;
+}
+
+.closing{
+    margin-top: 100px;
+    background-color: aqua;
+    font-size:medium;
+}
+
+.kunyuk{
+    margin-top: 100px;
+}
