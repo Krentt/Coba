@@ -118,3 +118,7 @@ h2{
 .slideshow-container{
     background-color:coral;
 }
+
+.audio{
+    align-items: center;
+}
