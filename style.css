@@ -8,7 +8,6 @@ body, html {
 .container {
     height: 100%;
     position: relative;
-    border: 3px solid white;
     background-image: url("https://i.pinimg.com/originals/7b/cd/7e/7bcd7ef4c5765b7b0dc86da1bdfc8989.jpg");
     background-position:center;
     background-repeat: no-repeat;
@@ -63,8 +62,17 @@ button:hover {
     font-family: Parisienne;
     letter-spacing: 2px;
 }
+html {
+    background: url("https://i.pinimg.com/originals/7b/cd/7e/7bcd7ef4c5765b7b0dc86da1bdfc8989.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 768px) {
     .Title{
         font-size: small;
     }
