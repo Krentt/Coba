@@ -1,4 +1,80 @@
-div {
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+body, html {
+    height: 100%;
+    width: 100%;
+  }
+
+.container {
+    height: 100%;
+    position: relative;
+    border: 3px solid white;
+    background-image: url("https://i.pinimg.com/originals/7b/cd/7e/7bcd7ef4c5765b7b0dc86da1bdfc8989.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+  
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+button {
+    background-color:#565088;
+    opacity: 0.7;
+    border:0.5px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.Title{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    color: whitesmoke;
+    font-family: Parisienne;
+    letter-spacing: 3.5px;
+}
+
+.watermark{
+    display: flex;
+    /* height: 100%; */
+    margin-top: 600px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0.3;
+    font-family: Parisienne;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1500px) {
+    .Title{
+        font-size: small;
+    }
+
+    .watermark{
+        margin-top: 500px;
+    }
+}
+
+/* div {
     font-size: x-large;
     text-align: center;
 }
@@ -33,4 +109,4 @@ img{
     font-size: x-large;
     text-align: center;
     margin-top: 100px;
-}
+} */
