@@ -86,9 +86,9 @@
     </div>
     
     <div style="display: none;">
-        <audio controls autoplay>
-            <source src="Music/Here's Your Perfecttt.ogg" type="audio/ogg">
-            <source src="Music/Here's Your Perfecttt.mp3" type="audio/mpeg">
+        <audio controls autoplay id ="myaudio">
+            <!-- <source src="Music/Here's Your Perfecttt.ogg" type="audio/ogg"> -->
+            <source src="Music/Here's Your Perfect fix.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -168,7 +168,10 @@
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 2000); // Change image every 2 seconds
     }
+    var audio = document.getElementById("myaudio");
+    audio.volume = 0.1;
     </script>
+
     <nav>
         <div class="closing">
             <p> Special thanks buat je Feli for these pictures :))</p>
